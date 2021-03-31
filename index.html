@@ -1,18 +1,208 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="./src/app.js"></script>
-    <link href="./src/style.css" type="text/css" rel="stylesheet" />
-    <title>Marcos Maia Dev</title>
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Marcos Maia Dev Portfólio" />
+        <meta name="author" content="Marcos Maia" />
+        <title>Marcos Maia Dev</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body id="container">
 
-    <h1>Portfólio Marcos Maia</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary " id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#topo-pagina">
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Início</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Formação</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">História</a></li> -->
+                </ul>
+            </div>
+        </nav>
 
-    <br>
-    <p>(Em desenvolvimento)</p>
-  </body>
+        
+
+
+
+        <div class="container-fluid p-0" id='topo-pagina'>
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Marcos
+                        <span class="text-primary">Maia</span>
+                    </h1>
+                    <div class="subtitulo mb-5">
+                        <a href="mailto:marcosmaiadev@gmail.com">marcosmaiadev@gmail.com</a>     <tel> +55 (31) 99819-5300 </tel>
+                        
+                    </div>
+                    <div class="subtitulo mb-5">
+                        <p>Fullstack developer em formação.<br />
+                        interessado em acessibilidade e interfaces de voz <br />
+                        Atualmente roteirista de tv educativa</p>
+                    </div>
+
+                    <p >Um entusiasta das tecnologias acessíveis e futuro desenvolvedor de interfaces de voz, não paro de aprender. Descobrir novas tecnologias e suas aplicações para melhorar a vida das pessoas e gerar valor é o que me faz levantar todos os dias com muita motivação.</p>
+                    <p >Profissional de comunicação social, buscarei levar minha experiência adquirida em diferentes instituições e projetos, e as habilidades adquiridas para meu trabalho como desenvolvedor. 
+                        Incluindo a flexibilidade e adaptação a diferentes projetos, o trabalho em equipe, a comunicação interpessoal, a sensibilidade, o foco em resultados e geração de valor, a organização e o pragmatismo.
+                        Gosto de ver o brilho nos olhos e alegria do cliente; questionar o processo a fim de melhorá-lo (é o que me levou a querer ser desenvolvedor); ser sincero e preciso; 
+                        entender um problema para resolvê-lo e busco ser sempre ético.
+                          Enquanto aprendo scripts que serão interpretados por máquinas, sigo criando scripts que são interpretados por cinegrafistas e editores de vídeo.</p> 
+                    <p >Eterno mestre pokemon, cuidador de gatinho e admirador das artes dos quadrinhos, games e cinema.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://github.com/marcosmaiadev" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://www.instagram.com/marcosmaiaideia/" target='_blank'><i class="fab fa-instagram"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/marcos-maia-ideia-a86a781a1/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+            
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projetos</h2>
+
+                    <div class="app-area-projetos">
+                        
+                        <div className='card-container'>
+                            <div className='card-foto d-none d-lg-block navbar-brand'>
+                                <!-- <img className='foto' src='./assets/img/profile.jpg' alt='Imagem do Card'/> -->
+                            </div>
+                            <div className='card-texto'>
+                                <div className='card-dados'>
+                                    <!-- <p>Título do Projeto</p>
+                                    <p>Descrição do Projeto</p> -->
+                                </div>
+                                <!-- <div className='card-botao'>
+                                    <button onClick={this.props.funcao}> {this.props.textoBotao} </button>
+                                </div> -->
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">Projetos a incluir</h3>
+                                <div class="subheading mb-3">Descrição dos projetos</div>
+                                <!-- <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p> -->
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </section>
+            
+            <hr class="m-0" />
+
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Formação</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">LABENU Code School, SP</h3>
+                            <div class="subheading mb-3"></div>
+                            <div subtitulo>Profissional fullstack web developer </div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Centro Federal de Educação Tecnológica de Minas Gerais, CEFET/MG</h3>
+                            <div class="subheading mb-3"></div>
+                            <div subtitulo>Mestrado em Linguagens - Linha Discurso, Mídia e Tecnologia. </div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">LA Film Institute e Universidade de Mogi das Cruzes, SP</h3>
+                            <div class="subheading mb-3"></div>
+                            <div subtitulo>Profissional roteirista audiovisual. <br> Comunicação Social.</div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <hr class="m-0" />
+
+
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Habilidades</h2>
+                    <div class="subheading mb-3">Tecnologias em desenvlvimento</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <!-- <li class="list-inline-item"><i class="fab fa-angular"></i></li> -->
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <!-- <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-less"></i></li> -->
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <!-- <li class="list-inline-item"><i class="fab fa-gulp"></i></li> -->
+                        <!-- <li class="list-inline-item"><i class="fab fa-grunt"></i></li> -->
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-aws"></i></li>
+
+                    </ul>
+                    <div class="subheading mb-3">Outros</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Jest
+                        </li>
+
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            TypeScript
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            MySQL
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Firebase
+                        </li>
+
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Design Responsivo
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Desenvolvimento Ágil e Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+
+            <hr class="m-0" />
+            
+
+
+        </div>
+
+        <script src="scripts.js"></script>
+        
+    </body>
 </html>
