@@ -30,4 +30,4 @@ marcosmaiacifra@gmail.com
 Portfólio de desenvolvimento Marcos Maia.   
 [Acesso web aqui](https://marcosmaiascript.github.io/)    
 [Atualizar para repo novo:](https://github.com/maiacifra/maiacifra.github.io)    
-(https://github.com/maiacifra/maiacifra.github.io) 
+https://github.com/maiacifra/maiacifra.github.io   
